@@ -1,6 +1,2 @@
-{% for post in object_list %}
-<ul>
-  <li>{{ post.title }}</li>
-  <li>{{ post.memo }}</li>
-</ul>
-{% endfor %}
+{% extends 'base.html' %} {% block header %} リストです {% endblock header %} {% block content %} {% for %} {% endblock
+content %}
